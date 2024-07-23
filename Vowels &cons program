@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+        char r = sc.next().charAt(0);
+        if(r>='A' && r<='Z' || r>='a' && r<='z')
+            if(r=='A' || r=='E'|| r=='I' || r=='O' || r=='U' r=='a' || r=='e')
+        {
+            System.out.println("The Character A is Vowel");
+        }
+        else{
+            System.out.println("Invalid Input");
+        }
+        
+        
+    }
+}
